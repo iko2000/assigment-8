@@ -1,0 +1,568 @@
+@font-face {
+    font-family: Lucida-medium;
+    src: url('../fonts/lucidabrightregular.ttf');
+}
+
+
+:root {
+    --primarycolor: #863503;
+    --secondraycolor:  #05520D;
+}
+
+
+header nav {
+    width: 100%;
+    height: 132px;
+    color: var(--primarycolor);
+}
+
+ul {
+    width: 100%;
+    height: 132px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-family: Lucida-medium;
+
+}
+li {
+    font-size: 24px; 
+    color: var(--primarycolor);
+    
+
+}
+.menu-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+header a {
+    text-decoration: none;
+    color: var(--primarycolor);
+}
+li:nth-child(4) {
+    margin-left: 230px;
+}
+input {
+    border: none;
+    width: 100%;
+    height: 75%;
+}
+.menu-form {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 226px;
+    height: 30px;
+    padding-right: 10px;
+} 
+/* Styling of footer */
+
+footer {
+    width: 100%;
+    height: 257px;
+    display: flex;
+    justify-content: center;
+    font-family: Lucida-medium;
+    
+
+}
+footer div {
+    width: 33%;
+    height: 100%;
+}
+.footer-side-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 66px;
+    width: 40%;
+}
+footer address {
+  color: var(--primarycolor);
+  font-size: 18px;
+}
+
+.footer-side-1 p {
+    margin-left: 140px;
+    font-size: 24px;
+    color: var(--primarycolor);
+}
+.footer-side-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.footer-side-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer {
+    background: rgba(183, 138, 109, 0.24);
+}
+footer h6 {
+ color: #05520D;
+ font-size: 20px;
+}
+footer  address > a{
+    color: var(--primarycolor);
+}
+footer p {
+    color: var(--primarycolor);
+}
+.soc-medpic {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+
+/*  Styling for homepage */
+.home-section {
+    width: 100%;
+    height: 99rem;
+    display: flex;
+    justify-content: center;
+    font-family: Lucida-medium;
+
+}
+.home-wrapper {
+    width: 87%;
+    height: 100%;
+}
+.home-article {
+
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(134, 53, 3, 0.07);
+
+}
+.article-side-1 h1 {
+    font-size: 52px;
+    color: var(--primarycolor);
+}
+.article-side-1-txt p {
+    font-size: 24px;
+    color: var(--primarycolor);
+}
+
+.article-side-1 {
+    width: 43%;
+    height: 100%;
+    display: grid;
+}
+.article-side-1-txt {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+.article-side-2 {
+    width: 57%;
+    height: 100%;
+}
+
+.home-floor-2 {
+    width: 100%;
+    height: 45%;
+    
+}
+.h3-for-floor h3 {
+    font-size: 32px;
+    color: var(--primarycolor);
+}
+.h3-for-floor {
+    width: 20%;
+    height: 9.5%;
+    margin-top: 120px;
+    margin-bottom: 90px;
+    border-bottom: 1.5px solid  #056B11;
+}
+.home-floor-2-main {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.anotation {
+    margin-top: 20px;
+}
+
+.anotation span {
+    margin-left: 120px;
+}
+.home-floor-2 button {
+    width: 170px;
+    height: 42px;
+    border: 2px solid #05520D;
+    float: right;
+    margin-right: 85px;
+    border-radius: 15px;
+    color: black;
+    margin-bottom: 400px;
+    font-size: 18px;
+}
+
+/*  Styling for Menu Page */
+
+.menu-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Lucida-medium;
+
+}
+.menu-wrapper {
+    width: 80%;
+    height: 110rem;
+
+}
+.menu-wrapper a {
+    text-decoration: none;
+    color: var(--primarycolor);
+    font-family: Lucida-medium;
+
+}
+.menu-wrapper-1 a {
+    text-decoration: none;
+    color: var(--primarycolor);
+    font-family: Lucida-medium;
+
+}
+.h4-color-1 {
+    font-weight: bold;
+}
+
+.menu-head {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu-head-txt {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.menu-head-txt-box {
+    width: 30%;
+}
+
+.menu-h4 {
+    border-right: 1px solid black;
+    color: var(--primarycolor);
+    font-size: 24px;
+
+}
+.menu-h4-1 {
+    border-right: 1px solid black;
+    font-size: 24px;
+    color: var(--primarycolor);
+
+}
+.menu-h4-2 {
+    font-size: 24px;
+    color: var(--primarycolor);
+
+}
+.menu-body {
+    width: 90%;
+    height: 79%;
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+    column-gap: 40px;
+    margin-bottom: 200px;
+}
+.menu-body-box {
+    width: 80%;
+    height: 280px;
+
+    display: flex;
+}
+.menu-body-box-txt {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+    margin-left: 40px;
+}
+
+.menu-body-box-txt h5 {
+    color: #05520D;
+    font-size: 20px;
+    text-align: center;
+}
+.menu-body-box-txt p {
+    color:  #7D0202;
+    font-size: 15px;
+}
+.menu-wrapper-1 {
+    width: 80%;
+    height: 90rem;
+
+}
+
+
+/* Styling or Locations page */
+
+.locations-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Lucida-medium;
+}
+.locations-main {
+    width: 78%;
+    height: 55rem;
+}
+.locations-main h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 28px;
+    color: var(--secondraycolor);
+}
+.locations-floor1 {
+    display: flex;
+}
+.locations-table {
+    width: 33%;
+    height: 8rem;
+    display: grid;
+    place-items: center;
+}
+.locations-table address {
+    font-size: 18px;
+    color: var(--primarycolor);
+}
+.locations-table p {
+    font-size: 18px;
+    color: var(--primarycolor);
+}
+.locations-floor2 {
+    width: 100%;
+    height: 20rem;
+    margin-top: 100px;
+    display: grid;
+    place-items: center;
+}
+
+
+
+
+/* Styling for about us page. */
+
+.aboutus-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Lucida-medium;
+}
+.aboutus-main {
+    width: 77%;
+    height: 120rem;
+}
+.aboutus-headings {
+    margin-left: 150px;
+    font-size: 28px;
+     color:#05520D;
+}
+.aboutus-main p {
+    font-size: 24px;
+    text-align: center;
+    line-height: 173.27%;
+
+}
+.aboutus-floor-1 {
+    width: 100%;
+    height: 28%;
+    margin-bottom: 100px;
+}
+
+.aboutus-side-1 {
+    width: 50%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.aboutus-side-2 {
+    width: 50%;
+    height: 100%;
+    margin-left: 30px;
+    display: grid;
+    place-items: center;
+}
+.aboutus-divider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 50px;
+}
+
+.about-us-middle {
+    margin-left: 750px;
+    font-size: 28px;
+    color:#05520D;
+}
+
+/* This side will style Contact us page */
+
+.contact-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-wrapper {
+    width: 80%;
+    height: 60rem;
+    margin-top: 20px;
+}
+.contact-header {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-wrapper h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: Lucida-medium;
+    font-size: 28px;
+    color: var(--secondraycolor);
+
+}
+.contact-wrapper h5 {
+    text-align: center;
+    color: var(--primarycolor);
+    font-size: 16px;
+    font-family: Lucida-medium;
+
+}
+
+.contact-body {
+    width: 100%;
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+}
+.contact-body input {
+    border: 1px solid black;
+}
+.contact-body-2 {
+    width: 80%;
+    height: 10rem;
+}
+.contact-form {
+    display: grid;
+    grid-template-columns: 420px 420px;
+    height: 150px;
+    width: 80%;
+    column-gap: 40px;
+
+}
+.inp-last {
+   width: 850px;
+   display: flex;
+   justify-content: flex-start;
+   height: 250px;
+   border: 1px solid black;
+   display: block;
+
+}
+.contact-body-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+}
+.contact-box button {
+    float: right;
+    width: 170px;
+    height: 42px;
+    border: 2px solid #05520D;
+    margin-right: 85px;
+    border-radius: 15px;
+    color: black;
+    margin-bottom: 400px;
+    font-size: 18px;
+    margin-top: 50px;
+    cursor: pointer;
+
+}
+
+
+
+::placeholder {
+    font-size: 16px;
+    padding: 20px;
+    color: var(--primarycolor);
+    font-family: Lucida-medium;
+    
+}
+
+.contact-wrapper input {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.p-final {
+    display: block;
+    margin-top: 120px;
+    margin-left: 900px;
+    color: red;
+    font-family: Lucida-medium;
+}
+.submit-a {
+    font-size: 18px;
+    font-family: Lucida-medium;
+    color: black;
+}
+
+.contact-body-1 {
+    width: 100%;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sent-txt {
+    margin-top: 100px;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+    font-family: Lucida-medium;
+    font-size: 16px;
+    color: var(--primarycolor);
+
+}
